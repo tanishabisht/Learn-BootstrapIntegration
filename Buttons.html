@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+        <link rel="stylesheet" href="node_modules/mdbootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="node_modules/mdbootstrap/css/mdb.min.css">
+        <link rel="stylesheet" href="node_modules/mdbootstrap/css/style.css">
+
+        <script type="text/javascript" src="node_modules/mdbootstrap/js/jquery.min.js"></script>
+        <script type="text/javascript" src="node_modules/mdbootstrap/js/popper.min.js"></script>
+        <script type="text/javascript" src="node_modules/mdbootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="node_modules/mdbootstrap/js/mdb.min.js"></script>
+
+        <title>Bootstrap Buttons</title>
+    </head>
+
+    <body>
+
+        <br/><br/>
+        <h3 class="text-center">BUTTONS</h3>
+
+        <br/><br/>
+        <h5>Basic-Color Buttons</h5>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+        <button type="button" class="btn btn-link">Link</button>
+        <button type="button" class="btn btn-default">Default</button>
+
+
+        <br/><br/>
+        <h5>Advanced-Color Buttons</h5>
+        <button type="button" class="btn btn-elegant">Elegant</button>
+        <button type="button" class="btn btn-unique">Unique</button>
+        <button type="button" class="btn btn-purple">Purple</button>
+        <button type="button" class="btn btn-deep-purple">Deep purple</button>
+        <button type="button" class="btn btn-indigo">Indigo</button>
+        <button type="button" class="btn btn-light-blue">Light blue</button>
+        <button type="button" class="btn btn-cyan">Cyan</button>
+        <button type="button" class="btn btn-dark-green">Dark green</button>
+        <button type="button" class="btn btn-light-green">Light green</button>
+        <button type="button" class="btn btn-yellow">Yellow</button>
+        <button type="button" class="btn btn-amber">Amber</button>
+        <button type="button" class="btn btn-deep-orange">Deep orange</button>
+        <button type="button" class="btn btn-brown">Brown</button>
+        <button type="button" class="btn btn-blue-grey">Blue grey</button>
+        <button type="button" class="btn btn-mdb-color">MDB</button>
+
+
+        <br/><br/>
+        <h5>Gradient-Color Buttons</h5>
+        <button type="button" class="btn peach-gradient">Elegant</button>
+        <button type="button" class="btn blue-gradient">Unique</button>
+        <button type="button" class="btn purple-gradient">Purple</button>
+        <button type="button" class="btn aqua-gradient">Purple</button>
+
+
+        <!-- MDB automatically adds a wave effect to each element with the .btn class. However, in outline buttons, it's barely visible due to their lack of background.
+        That's why to outline buttons we need to add an additional class, .waves-effect, to make the waves darker and more intense. -->
+        <br/><br/>
+        <h5>Outiline Buttons</h5>
+        <button type="button" class="btn btn-outline-primary waves-effect">Primary</button>
+        <button type="button" class="btn btn-outline-secondary waves-effect">Secondary</button>
+        <button type="button" class="btn btn-outline-success waves-effect">Success</button>
+        <button type="button" class="btn btn-outline-danger waves-effect">Danger</button>
+
+
+        <br/><br/>
+        <h5>Buttons with icons</h5>
+        <button type="button" class="btn btn-primary"><i class="fas fa-magic mr-2"></i>Left</button>
+        <button type="button" class="btn btn-default">Right<i class="fas fa-magic ml-2"></i></button>
+
+        
+        <br/><br/>
+        <h5>Large Buttons</h5>
+        <button type="button" class="btn btn-primary btn-lg"><i class="fas fa-magic mr-2"></i>Left</button>
+        <button type="button" class="btn btn-default btn-lg">Right<i class="fas fa-magic ml-2"></i></button>
+
+
+        <br/><br/>
+        <h5>Small Buttons</h5>
+        <button type="button" class="btn btn-primary btn-sm"><i class="fas fa-magic mr-2"></i>Left</button>
+        <button type="button" class="btn btn-default btn-sm">Right<i class="fas fa-magic ml-2"></i></button>
+
+
+        <br/><br/>
+        <h5>Block Buttons</h5>
+        <button type="button" class="btn btn-primary btn-lg btn-block">Large block</button>
+        <button type="button" class="btn btn-info btn-block">Normal Block</button>
+        <button type="button" class="btn btn-default btn-sm btn-block">Small block</button>
+
+
+        <br/><br/>
+        <h5>Active and disabled State</h5>
+        <button type="button" class="btn btn-info active">Info active</button>
+        <button type="button" class="btn btn-info" disabled>Info disabled</button>
+        <button type="button" class="btn btn-info" data-toggle="button">Info Single toggle</button>
+
+
+        <!-- For button groups, this would be role="group", while toolbars should have a role="toolbar". 
+        Should be given an explicit label other than role, eg.: aria-label or aria-labelledby-->
+        <br/><br/>
+        <h5>Checkbox Buttons</h5>
+        <div class="btn-group btn-group-toggle" role="group" aria-label="Checkbox buttons" data-toggle="buttons">
+            <label class="btn btn-primary"><input type="checkbox" autocomplete="off"> Checkbox 1</label>
+            <label class="btn btn-primary"><input type="checkbox" autocomplete="off"> Checkbox 2</label>
+            <label class="btn btn-primary"><input type="checkbox" autocomplete="off"> Checkbox 3</label>
+        </div>
+
+
+        <br/><br/>
+        <h5>Radio Buttons</h5>
+        <div class="btn-group btn-group-toggle" role="group" aria-label="Radio buttons" data-toggle="buttons">
+            <label class="btn btn-primary"><input type="radio" name="option" autocomplete="off"> Radio 1</label>
+            <label class="btn btn-primary"><input type="radio" name="option" autocomplete="off"> Radio 2</label>
+            <label class="btn btn-primary"><input type="radio" name="option" autocomplete="off"> Radio 3</label>
+        </div>
+
+
+        <br/><br/>
+        <h5>Vertical Buttons</h5>
+        <div class="btn-group btn-group-vertical" role="group" aria-label="Vertical button group">
+            <button type="button" class="btn btn-indigo m-0">Button</button>
+            <button type="button" class="btn btn-primary m-0">Button</button>
+            <button type="button" class="btn btn-info m-0">Button</button>
+            <button type="button" class="btn btn-cyan m-0">Button</button>
+        </div>
+
+        <br/><br/>
+        <h5>Dropdown Buttons</h5>
+        <div class="btn-group" role="group" aria-label="Dropdown button">
+            <button id="btnGroupVerticalDrop" type="button" class="btn btn-indigo dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown </button>
+            <div class="dropdown-menu" aria-labelledby="btnGroupVerticalDrop">
+                <a class="dropdown-item" href="#">Dropdown link1</a>
+                <a class="dropdown-item" href="#">Dropdown link2</a>
+            </div>
+        </div>
+
+    </body>
+</html>
